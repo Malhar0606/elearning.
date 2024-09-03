@@ -1,0 +1,280 @@
+
+.nav{
+    width: 100%;
+    height: 1300px;
+    background-image: url("../images/Background/bg_1.jpg.webp");
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.nav-wrapper{
+    gap: 50%;
+}
+.nav-wrapper h2{
+    font-size: 28px;
+}
+.nav-wrapper span{
+    font-size: 12px;
+}
+.desktop-list{
+    display: none;
+}
+.desktop-list li{
+    font-size: 22px;
+}
+.start{
+    gap: 20px;
+    padding-top: 50px;
+}
+.header{
+    width: 100%;
+}
+.heading h1{
+    font-size: 40px;
+}
+/* sec-1 */
+.course{
+    gap: 20px;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+/* sec 1 */
+.sec-one h6{
+    color: rgb(3, 180, 180);
+    font-family: "Roboto", Arial, sans-serif;
+}
+.sec-one h2{
+    font-size: 28px;
+    line-height: 40px;
+    color: rgb(60, 60, 60);
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+/* sec-2 */
+.success{
+    gap: 20px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.success i{
+    font-size: 50px;
+}
+.sec-two{
+    background-image: url("../images/Background/fingers-note-report-journalist-filling_1150-1044.avif");
+    width: 100%;
+    height: auto;
+    padding: 50px 0 50px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* sec 3 */
+.sec-three{
+    margin-top: 100px;
+}
+.sec-three h6{
+    color: rgb(3, 180, 180);
+    font-family: "Roboto", Arial, sans-serif;
+}
+.sec-three h2{
+    color: rgb(60, 60, 60);
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 30px;
+    line-height: 42px;
+}
+.design{
+    background-color: rgb(240, 238, 238);
+    padding: 70px 0 70px 0;
+}
+.design i{
+    color: rgb(3, 180, 180);
+    font-size: 50px;
+}
+
+/* sec 4 */
+.test{
+    margin-top: 100px;
+}
+.test h6{
+    font-family: "Roboto", Arial, sans-serif;
+    color: rgb(3, 180, 180);
+}
+.test h2{
+    font-size: 30px;
+    color: rgb(60, 60, 60);
+    line-height: 40px;
+}
+.student img{
+    border-radius: 50%;
+}
+.student{
+    background-color: rgb(240, 238, 238);
+    padding: 80px 0 80px 0;
+}
+.manager{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+}
+.manager span{
+    font-size: 12px;
+    color: rgb(3, 180, 180);
+}
+.para{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(145, 145, 145)
+}
+
+
+/* sec 5 */
+.blog h6{
+    color: rgb(3, 180, 180);
+    font-family: "Roboto", Arial, sans-serif;
+}
+.blog h2{
+    color: rgb(60, 60, 60);
+    font-size: 32px;
+    font-family: "Roboto", Arial, sans-serif;
+    line-height: 45px;
+}
+.blog{
+    margin-top: 100px;
+}
+.price{
+    background-color: rgb(240, 238, 238);
+    padding: 50px 30px 50px 30px;
+}
+.price h2{
+    color: rgb(3, 180, 180);
+    font-size: 50px;
+}
+
+/* sec 6 */
+.sec-six{
+    background-color: rgb(3, 180, 180);
+    padding: 100px 0 100px 0;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/* footer */
+.footer a{
+    text-decoration: none;
+    color: rgb(96, 96, 96);
+    list-style: none;
+}
+.footer{
+    margin-bottom: 100px;
+}
+.question textarea{
+    width: 100%;
+    height: 100px;
+}
+
+@media(min-width:576px){
+    .sec-two{
+        padding: 80px 0 80px 0;
+    }
+    .heading br{
+        display: none;
+    }
+    .heading h1{
+        font-size: 35px;
+    }
+}
+
+@media(min-width:768px){
+    .image{
+        background-image: url("../images/Background/about.jpg.webp");
+        width: 100%;
+        height: 900px;
+        background-size: cover;
+        background-position: center;
+    }
+    .sec-four{
+        margin-top: 200px;
+    }
+    .heading h1{
+        font-size: 37px;
+    }
+    .sec-one h2{
+        font-size: 30px;
+    }
+    .test{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .test h2{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .student{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .list{
+        gap: 200px;
+    }
+    .price{
+        width: 20%;
+    }
+    .question textarea{
+        width: 60%;
+    }
+}
+
+
+@media(min-width:992px){
+    .header h1{
+        font-size: 40px;
+        width: 70%;
+    }
+    .nav-wrapper{
+        gap: 20%;
+    }
+    .nav-wrapper h2{
+        font-size: 35px;
+    }
+    .nav-wrapper span{
+        font-size: 15px;
+    }
+    .sec-three h2{
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+    .sec-five h2{
+        font-size: 38px;
+    }
+    .gap{
+        gap: 180px;
+    }
+    .question textarea{
+        width: 100%;
+    }
+    .desktop-list{
+        list-style-type: none;
+        display: flex;
+        font-size: 15px;
+        gap: 40px;
+        color: white;
+    }
+    .desktop-list a{
+        text-decoration: none;
+        color: white;
+    }
+    .mob-bar{
+        display: none;
+    }
+}
